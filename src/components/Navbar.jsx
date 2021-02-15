@@ -6,12 +6,12 @@ function NavbarComponent({ loc }) {
   return (
     <Navbar expand="lg" variant="primary" bg="light" className="mb-3">
       <Container fluid>
-        <Link to="/Kaplan-BookList//books">
+        <Link to="/books">
           <Navbar.Brand>
             <b>BOOKS</b>
           </Navbar.Brand>
         </Link>
-        {loc.pathname === "/Kaplan-BookList//books" && (
+        {loc.pathname === "/books" && (
           <Link to="/form/new">
             <Button variant="outline-primary">Create New Book</Button>
           </Link>
