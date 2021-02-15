@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Kaplan-BookList/static/css/main.855cb422.chunk.css",
+    "main.js": "/Kaplan-BookList/static/js/main.80fb2c6a.chunk.js",
+    "main.js.map": "/Kaplan-BookList/static/js/main.80fb2c6a.chunk.js.map",
+    "runtime-main.js": "/Kaplan-BookList/static/js/runtime-main.e19b117f.js",
+    "runtime-main.js.map": "/Kaplan-BookList/static/js/runtime-main.e19b117f.js.map",
+    "static/css/2.150d169a.chunk.css": "/Kaplan-BookList/static/css/2.150d169a.chunk.css",
+    "static/js/2.914fb255.chunk.js": "/Kaplan-BookList/static/js/2.914fb255.chunk.js",
+    "static/js/2.914fb255.chunk.js.map": "/Kaplan-BookList/static/js/2.914fb255.chunk.js.map",
+    "static/js/3.c319c83a.chunk.js": "/Kaplan-BookList/static/js/3.c319c83a.chunk.js",
+    "static/js/3.c319c83a.chunk.js.map": "/Kaplan-BookList/static/js/3.c319c83a.chunk.js.map",
+    "index.html": "/Kaplan-BookList/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/Kaplan-BookList/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.855cb422.chunk.css.map": "/Kaplan-BookList/static/css/main.855cb422.chunk.css.map",
+    "static/js/2.914fb255.chunk.js.LICENSE.txt": "/Kaplan-BookList/static/js/2.914fb255.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e19b117f.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.914fb255.chunk.js",
+    "static/css/main.855cb422.chunk.css",
+    "static/js/main.80fb2c6a.chunk.js"
+  ]
+}
