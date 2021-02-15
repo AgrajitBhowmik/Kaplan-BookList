@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Redirect, Switch, withRouter } from "react-router-dom";
+import NavbarComponent from "./components/Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
+import CreateBookForm from "./components/CreateBookForm";
+import NotFound from "./components/NotFound";
+import MainComponent from "./components/MainComponent";
 
-function App() {
+const App = withRouter(({ location }) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <NavbarComponent loc={location} />
+      <main>
+        <Switch>
+          <Route path="/books" component={MainComponent}></Route>
+          <Route path="/form/new" component={CreateBookForm}></Route>
+          <Route path="/not-found" component={NotFound}></Route>
+          <Redirect from="/" exact to="/books" />
+          <Redirect to="/not-found" />
+        </Switch>
+      </main>
+    </React.Fragment>
   );
-}
+});
 
 export default App;
