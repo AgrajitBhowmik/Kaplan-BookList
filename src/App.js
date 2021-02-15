@@ -14,9 +14,9 @@ const App = withRouter(({ location }) => {
         <Switch>
           <Route path="/Kaplan-BookList/books" component={MainComponent}></Route>
           <Route path="/Kaplan-BookList/form/new" component={CreateBookForm}></Route>
-          <Route path="/not-found" component={NotFound}></Route>
+          <Route path="/Kaplan-BookList/not-found" component={NotFound}></Route>
           <Redirect from="/Kaplan-BookList" exact to="/Kaplan-BookList/books" />
-          <Redirect to="/not-found" />
+          <Redirect to="/Kaplan-BookList/not-found" />
         </Switch>
       </main>
     </React.Fragment>
