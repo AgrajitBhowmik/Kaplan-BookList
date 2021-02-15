@@ -12,10 +12,10 @@ const App = withRouter(({ location }) => {
       <NavbarComponent loc={location} />
       <main>
         <Switch>
-          <Route path="/Kaplan-BookList//books" component={MainComponent}></Route>
-          <Route path="/Kaplan-BookList//form/new" component={CreateBookForm}></Route>
+          <Route path="/Kaplan-BookList/books" component={MainComponent}></Route>
+          <Route path="/Kaplan-BookList/form/new" component={CreateBookForm}></Route>
           <Route path="/not-found" component={NotFound}></Route>
-          <Redirect from="/" exact to="/Kaplan-BookList//books" />
+          <Redirect from="/Kaplan-BookList" exact to="/Kaplan-BookList/books" />
           <Redirect to="/not-found" />
         </Switch>
       </main>
